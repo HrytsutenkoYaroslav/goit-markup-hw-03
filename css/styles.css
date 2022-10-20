@@ -20,6 +20,10 @@ a {
 .footer {
   background-color: #2f303a;
 }
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .hero-title {
   color: var(--primary-white-color);
   font-weight: 900;
@@ -28,10 +32,18 @@ a {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+
+  width: 696px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  padding-top: 200px;
+
 }
 
 
-h1 {
+h1 { margin-top: 0px;
+ 
   
 
 }
@@ -41,6 +53,7 @@ h2 {
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
+ 
 }
 h3 {
   color: var(--title-text-color);
@@ -74,7 +87,8 @@ border: 0px;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
 }
-.btn {text-align: center;}
+.btn {text-align: center;
+padding-bottom: 200px;}
 .button:hover {
   font-weight: 500;
   font-size: 16px;
@@ -106,6 +120,9 @@ border-radius: 4px;
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
+  display: block;
+  margin-right: 93px;
+ 
 }
 .studio-header {
   color: #000000;
@@ -125,7 +142,13 @@ border-radius: 4px;
   font-size: 14px;
   line-height: 1.15;
   letter-spacing: 0.02em;
+ display: flex;
+ align-items: center;
+ 
 }
+.site-nav li {margin-right: 50px;}
+.site-nav li:last-child {margin-right: 0;}
+
 .hero {
   background-color: #2f303a;
 }
@@ -134,9 +157,11 @@ border-radius: 4px;
   background-color: var(--accent-color);
   font-weight: 700;
 }
+
 .team {
   background-color: #f5f4fa;
 }
+.team .list {display: flex;}
 .team h3 {
   font-weight: 500;
   font-size: 16px;
@@ -155,12 +180,15 @@ border-radius: 4px;
   line-height: 1.15;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+ 
 }
 .about p {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
+.about .list {display: flex;}
+.work-type .list {display: flex;}
 .contact:hover {
   color: var(--accent-color);
 }
@@ -169,6 +197,9 @@ border-radius: 4px;
 }
 .site-nav .link {
   color: var(--title-text-color);
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .site-nav .link:hover {
   color: var(--accent-color);
@@ -192,8 +223,25 @@ border-radius: 4px;
 .hero .button {
   font-weight: 700;
 }
+.auth-nav {display: flex;
+margin-left: auto;}
+.auth-nav .item + .item {margin-left: 50px;}
+.header {display: flex;
+align-items: center;}
 
-.container {width: 1200px;}
+.portfolio-list {display: flex;
+flex-wrap: wrap;}
+.portfolio-list .portfolio-title {text-align: left;}
+.port-btn {display: flex;
+align-items: center;}
+.port-flex {margin-right: 30px;}
+.port-flex:nth-child(3n) {margin-right: 0;}
+.container {width: 1200px;
+margin-left: auto;
+margin-right: auto;
+padding-left: 15px;
+padding-right: 15px;}
+
 
 
 
