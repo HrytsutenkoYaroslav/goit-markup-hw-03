@@ -227,13 +227,15 @@ border-radius: 4px;
 margin-left: auto;}
 .auth-nav .item + .item {margin-left: 50px;}
 .header {display: flex;
-align-items: center;}
+  align-items: center;
+}
 
 .portfolio-list {display: flex;
 flex-wrap: wrap;}
 .portfolio-list .portfolio-title {text-align: left;}
 .port-btn {display: flex;
-align-items: center;}
+align-items: center;
+justify-content: center;}
 .port-flex {margin-right: 30px;}
 .port-flex:nth-child(3n) {margin-right: 0;}
 .container {width: 1200px;
@@ -241,6 +243,7 @@ margin-left: auto;
 margin-right: auto;
 padding-left: 15px;
 padding-right: 15px;}
+
 
 
 
