@@ -11,8 +11,10 @@ body {
   color: var(--primary-text-color);
   font-family: "Roboto", "Arial", sans-serif;
 }
+h1, h2, h3, h4, h5, h6, p {margin: 0px;}
 a {
   text-decoration: none;
+  
 }
 .list {
   list-style: none;
@@ -69,11 +71,7 @@ list-style: none;}
   letter-spacing: 0.03em;
 }
 
-.portfolio h2 {
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
-}
+
 .button {
   cursor: pointer;
   font-weight: 500;
@@ -81,14 +79,18 @@ list-style: none;}
   line-height: 1.63;
   text-align: center;
   letter-spacing: 0.03em;
-  min-width: 216px;
+  
   min-height:50px ;
+  margin-right: 8px;
 border: 0px;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
 }
+.list .port-btn {margin-bottom: 50px;}
 .btn {text-align: center;
-padding-bottom: 200px;}
+padding-bottom: 200px;
+}
+
 .button:hover {
   font-weight: 500;
   font-size: 16px;
@@ -129,6 +131,7 @@ border-radius: 4px;
 }
 .studio-footer {
   color: var(--primary-white-color);
+  
 }
 .contact {
   color: var(--primary-text-color);
@@ -161,7 +164,6 @@ border-radius: 4px;
 .team {
   background-color: #f5f4fa;
 }
-.team .list {display: flex;}
 .team h3 {
   font-weight: 500;
   font-size: 16px;
@@ -182,13 +184,12 @@ border-radius: 4px;
   text-transform: uppercase;
  
 }
+.about-header {margin-bottom: 10px;}
 .about p {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
-.about .list {display: flex;}
-.work-type .list {display: flex;}
 .contact:hover {
   color: var(--accent-color);
 }
@@ -229,7 +230,19 @@ margin-left: auto;}
 .header {display: flex;
   align-items: center;
 }
-
+.portfolio-text {margin-top: 0;
+padding-bottom: 20px;
+margin-bottom: 0px;
+margin-left: 24px;
+margin-right: 24px;
+color: #757575;}
+.portfolio-title {margin-bottom: 4px;
+margin-left: 24px;
+margin-right: 24px;
+font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
 .portfolio-list {display: flex;
 flex-wrap: wrap;}
 .portfolio-list .portfolio-title {text-align: left;}
@@ -243,8 +256,40 @@ margin-left: auto;
 margin-right: auto;
 padding-left: 15px;
 padding-right: 15px;}
+.work-header {margin-top: 0px;
+margin-bottom: 50px;}
+.work-list {display: flex;
+gap: 30px;}
+.about-list {display: flex;
+gap: 30px;}
+.team-list {display: flex;
+gap: 30px; }
+.footer {padding-top: 60px;
+padding-bottom: 60px;}
+.logo-footer {margin-bottom: 20px;}
+.addres-fotter {margin-bottom: 9px;}
+.contact-footer {display: flex;
+flex-wrap: wrap;}
+.mail {margin-bottom: 9px;}
+.studio-work {
+  border-top: none;
+  border: 1px solid #EEEEEE;
+width: 370px;}
+.studio-work {margin-bottom: 30px;}
+.name-header {margin-top: 30px;
+margin-bottom: 10px;}
+.btn-section {margin-bottom: 50px;
+padding-bottom: 0px;
+}
+.portfolio-section {padding-top: 0px;}
+.btn-size {margin-left: 22px;
+margin-right: 22px;}
+.hero-btn {min-width: 152px;
+}
+.btn-title {margin-left: 32px;
+margin-right: 32px;}
 
 
-
+ 
 
 
